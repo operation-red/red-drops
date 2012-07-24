@@ -18,7 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	[label setFont:[UIFont fontWithName:@"KNU" size:30]];
+	[label setFont:[UIFont fontWithName:@"Karen Standard" size:30]];
 }
 
 - (void)viewDidUnload

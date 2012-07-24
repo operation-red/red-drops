@@ -21,7 +21,7 @@
 		158E816815BDFA3100F86018 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158E814615BDFA3100F86018 /* Foundation.framework */; };
 		158E817015BDFA3100F86018 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 158E816E15BDFA3100F86018 /* InfoPlist.strings */; };
 		158E817315BDFA3100F86018 /* KarenPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 158E817215BDFA3100F86018 /* KarenPadTests.m */; };
-		158E818715BE07D400F86018 /* knu.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 158E818515BE07CF00F86018 /* knu.TTF */; };
+		158E818E15BEDA9E00F86018 /* Kstdn.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 158E818D15BEDA9E00F86018 /* Kstdn.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +55,7 @@
 		158E816F15BDFA3100F86018 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		158E817115BDFA3100F86018 /* KarenPadTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KarenPadTests.h; sourceTree = "<group>"; };
 		158E817215BDFA3100F86018 /* KarenPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KarenPadTests.m; sourceTree = "<group>"; };
-		158E818515BE07CF00F86018 /* knu.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = knu.TTF; sourceTree = "<group>"; };
+		158E818D15BEDA9E00F86018 /* Kstdn.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Kstdn.ttf; path = ../Kstdn.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +129,7 @@
 		158E814B15BDFA3100F86018 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				158E818515BE07CF00F86018 /* knu.TTF */,
+				158E818D15BEDA9E00F86018 /* Kstdn.ttf */,
 				158E814C15BDFA3100F86018 /* KarenPad-Info.plist */,
 				158E814D15BDFA3100F86018 /* InfoPlist.strings */,
 				158E815015BDFA3100F86018 /* main.m */,
@@ -232,7 +232,7 @@
 				158E814F15BDFA3100F86018 /* InfoPlist.strings in Resources */,
 				158E815815BDFA3100F86018 /* MainStoryboard_iPhone.storyboard in Resources */,
 				158E815B15BDFA3100F86018 /* MainStoryboard_iPad.storyboard in Resources */,
-				158E818715BE07D400F86018 /* knu.TTF in Resources */,
+				158E818E15BEDA9E00F86018 /* Kstdn.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +451,7 @@
 				158E817815BDFA3100F86018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		158E817915BDFA3100F86018 /* Build configuration list for PBXNativeTarget "KarenPadTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +460,7 @@
 				158E817B15BDFA3100F86018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
